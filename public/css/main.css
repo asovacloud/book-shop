@@ -1,0 +1,84 @@
+*, :after, :before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font: 16px/1.4 Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #A64B00;
+  margin: 0 0 1rem;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header ul li {
+  margin-left: 0.6rem;
+}
+
+.header ul li:first-child {
+  margin-left: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.header li.active a {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+.add-product-form {
+  margin: 0 auto;
+  max-width: 25rem;
+  padding: 0 0.5rem;
+}
+
+.add-product-form input {
+  display: block;
+  width: 100%;
+  border: 2px solid #006363;
+  padding: 0.3rem 0.5rem;
+  border-radius: none;
+  margin: 0 0 0.5rem;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid #006363;
+  background: none;
+  color: #006363;
+  width: 160px;
+  height: 46px;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  line-height: 37px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #006363;
+}

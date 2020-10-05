@@ -1,0 +1,28 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Node JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start-server": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Andrew Sova <asovacloud@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
