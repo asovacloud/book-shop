@@ -6,10 +6,13 @@
 body {
   margin: 0;
   font: 16px/1.4 Arial, Helvetica, sans-serif;
+  min-width: 340px;
 }
 
 main {
   padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .header {
